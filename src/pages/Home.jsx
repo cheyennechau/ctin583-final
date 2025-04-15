@@ -3,7 +3,7 @@ import { Canvas } from '@react-three/fiber';
 import { OrbitControls, Environment, useGLTF } from '@react-three/drei';
 
 const Island = () => {
-    const gltf = useGLTF('/island/floating island.gltf');
+    const gltf = useGLTF(import.meta.env.BASE_URL + 'island/floating_island.gltf');
     return <primitive object={gltf.scene} scale={1.5} />;
 }
 
