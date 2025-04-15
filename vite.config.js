@@ -6,6 +6,6 @@ export default defineConfig({
   build: {
     outDir: 'docs'
   },
-  base: './',
+  base: '/ctin583-final/',
   plugins: [react()],
 })
