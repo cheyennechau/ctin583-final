@@ -10,13 +10,13 @@ function App() {
   return (
     <>
       <Navbar />
-      <BrowswerRouter basename="/ctin-final/">
+      <BrowserRouter basename="/ctin-final/">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
         </Routes>
-      </BrowswerRouter>
+      </BrowserRouter>
     </>
   );
 }
